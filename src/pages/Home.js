@@ -33,9 +33,29 @@ function Home () {
         >
           <FaRocket/> CONTRATAR SERVIÇO DE TRÁFEGO</button>
         </div>
-        <button className="m-4 btn btn-primary btn-sm rounded-pill " type="button"><FaBrain /> APRENDER TRÁFEGO PAGO</button>
-        <button className="m-4 btn btn-primary btn-sm rounded-pill " type="button"><FaFire /> CONSULTORIA HEBERTON TORRES</button>
-        <button className="m-4 btn btn-primary btn-sm rounded-pill " type="button"><FaYoutube /> CANAL NO YOUTUBE</button>
+        <button
+          className="m-4 btn btn-primary btn-sm rounded-pill "
+          type="button"
+          onClick={ () => window.location.href = 'https://www.instagram.com/hebertontorres/'}
+          >
+            <FaBrain /> APRENDER TRÁFEGO PAGO
+            </button>
+        <button
+          className="m-4 btn btn-primary btn-sm rounded-pill "
+          type="button"
+          onClick={ () => window.location.href = 'https://www.instagram.com/hebertontorres/'}
+          >
+            <FaFire /> 
+          CONSULTORIA HEBERTON TORRES
+          </button>
+        <button
+          className="m-4 btn btn-primary btn-sm rounded-pill "
+          type="button"
+          onClick={ () => window.location.href = 'https://www.instagram.com/hebertontorres/'}
+          >
+            <FaYoutube />
+            CANAL NO YOUTUBE
+        </button>
       </div>
     </div>
     <footer className="text-light footer">
