@@ -4,14 +4,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import profile from '../images/image-profile.jpg';
 import { FaArrowDown, FaRocket, FaBrain, FaFire, FaYoutube } from 'react-icons/fa'
 import Footer from "../components/Footer";
+import Header from '../components/Header';
 
 
 function Home () {
   return (
     <>
+    <Header />
     <div className="d-flex flex-column justify-content-center align-items-center p-2">
       
-    <div className="m-3">
+    <div className="m-5">
         <img className="img-thumbnail rounded-circle" src={profile} alt="Photography of Profile " />
         </div>
         <div className="m-3">
@@ -22,14 +24,14 @@ function Home () {
       </div>
       <div className="d-flex flex-column m-5">
         <div>
-        <button className="m-3 ps-5 pe-5 btn btn-primary btn-lg rounded-pill " type="button"><FaRocket/> CONTRATAR SERVIÇO DE TRÁFEGO</button>
+        <button className="m-4 ps-5 pe-5 btn btn-primary btn-sm rounded-pill " type="button"><FaRocket/> CONTRATAR SERVIÇO DE TRÁFEGO</button>
         </div>
-        <button className="m-3 btn btn-primary btn-lg rounded-pill " type="button"><FaBrain /> APRENDER TRÁFEGO PAGO</button>
-        <button className="m-3 btn btn-primary btn-lg rounded-pill " type="button"><FaFire /> CONSULTORIA HEBERTON TORRES</button>
-        <button className="m-3 btn btn-primary btn-lg rounded-pill " type="button"><FaYoutube /> CANAL NO YOUTUBE</button>
+        <button className="m-4 btn btn-primary btn-sm rounded-pill " type="button"><FaBrain /> APRENDER TRÁFEGO PAGO</button>
+        <button className="m-4 btn btn-primary btn-sm rounded-pill " type="button"><FaFire /> CONSULTORIA HEBERTON TORRES</button>
+        <button className="m-4 btn btn-primary btn-sm rounded-pill " type="button"><FaYoutube /> CANAL NO YOUTUBE</button>
       </div>
     </div>
-    <footer className="text-light footer fixed-bottom">
+    <footer className="text-light footer">
       <Footer />
     </footer>
     </>

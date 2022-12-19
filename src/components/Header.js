@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Header () {
   return (
-    <div className="block p-4 bg-black">
+    <div className="block p-1 bg-black">
       <img className="w-25" src={ imgHeader } alt='logo' />
     </div>
   )
